@@ -1,0 +1,30 @@
+.userData {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.userName {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.userNumber {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+p {
+  margin: 5px;
+}
+.userIconName {
+  padding-right: 10px;
+  color: #111;
+}
+.userIconNumber {
+  padding-right: 10px;
+  color: #111;
+}
+
+button {
+  background-color: rgb(98, 159, 234);
+}

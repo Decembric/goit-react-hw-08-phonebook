@@ -1,0 +1,8 @@
+.nav {
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  margin-right: 100px;
+  margin-left: 30px;
+}

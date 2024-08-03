@@ -1,0 +1,15 @@
+.nav {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+}
+.navLink {
+  display: flex;
+  padding: 10px 16px;
+  background-color: transparent;
+  text-decoration: none;
+}
+.active {
+  font-size: x-large;
+  color: red;
+}

@@ -1,0 +1,17 @@
+.active {
+  font-size: x-large;
+  color: red;
+}
+
+.nav {
+  min-width: 1000px;
+  display: flex;
+  background-color: bisque;
+  align-items: center;
+  gap: 20px;
+}
+.navLink {
+  padding: 10px 16px;
+  background-color: transparent;
+  text-decoration: none;
+}
