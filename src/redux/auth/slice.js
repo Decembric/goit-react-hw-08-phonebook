@@ -48,7 +48,7 @@ state.isLoading = true
     state.token = null
     state.isLoggedIn = false
   }).addCase(logout.rejected, state => {
-    state.isLoading = true
+    state.isLoading = false
     state.isError = true
   }).addCase(refreshUser.pending, state => {
 state.isRefreshing = true
@@ -57,6 +57,9 @@ state.isRefreshing = true
     state.isLoading = false
     state.isLoggedIn = true
     state.isRefreshing = false
+  }).addCase(refreshUser.rejected, state => {
+    state.isLoading = false
+    state.isError = true
   })
   
 })
